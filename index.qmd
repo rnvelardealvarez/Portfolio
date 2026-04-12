@@ -1,0 +1,16 @@
+---
+title: "Portfolio"
+image: images/headshot.jpeg #Make sure to match the file type!
+about:
+    template: jolla
+    links:
+     -  icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/romeo-velarde-alvarez #Put your own LinkedIn link here!
+     -  icon: github
+        text: Github
+        href: https://github.com/rnvelardealvarez #Put your own Github link here!
+---
+
+My name is Nata Velarde-Alvarez
+[LinkedIn](https://www.linkedin.com/in/nata-velarde-alvarez/)
