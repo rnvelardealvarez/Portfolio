@@ -12,5 +12,5 @@ about:
         href: https://github.com/rnvelardealvarez #Put your own Github link here!
 ---
 
-My name is Nata Velarde-Alvarez
+My name is Nata Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College.  
 [LinkedIn](https://www.linkedin.com/in/nata-velarde-alvarez/)

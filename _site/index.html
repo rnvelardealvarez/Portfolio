@@ -122,7 +122,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
-<p>My name is Nata Velarde-Alvarez <a href="https://www.linkedin.com/in/nata-velarde-alvarez/">LinkedIn</a></p>
+<p>My name is Nata Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College.<br>
+<a href="https://www.linkedin.com/in/nata-velarde-alvarez/">LinkedIn</a></p>
 
 
 </main> 
@@ -205,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/rnvelardealvarez\.github\.io\/Portfolio\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
