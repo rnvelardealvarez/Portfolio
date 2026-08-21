@@ -1,1 +1,72 @@
-Hi, this is a change
+---
+title: "My Projects"
+---
+
+---
+
+## Closed-Loop Water Level Control System
+
+::: {layout-ncol="2"}
+![]()
+
+![]()
+:::
+  
+I built a water level control system to save water leaking in a bucket at home. 
+
+**Skills:**  
+Electronics Design, Embedded C/C++, PCB Design 
+
+---
+
+## Height Gauge for Microscopy Samples
+   Team Design Project
+
+Background: Australian university lab analyzes powdered samples using an electron micrscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm, a more accurate and precise method than using a ruler, and time efficient method.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
+![](images/heightgauge.jpg)
+
+![](images/IMG_4687.jpg)
+
+![](images/IMG_4790.jpg)
+
+<video controls playsinline style="width: 100%;">
+  <source src="images/0819.mp4" type="video/mp4">
+</video>
+
+</div>
+  
+In a team of 5 students, we designed and built a height gauge for measuring the microscopy samples. The design is a laser-caliper system. It was capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field.
+
+**Skills:**
+Prototyping, Circuit Design, Breadboarding, Soldering, CAD, 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing
+
+**Key Contributions:**  
+- Designed circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field
+- LED indicator to indicate when sample crosses linear laser field.
+- Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD.
+- Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm.
+- Validated effectiveness with different colored powdered and solid samples.
+
+
+---
+
+## Machined Hammer
+
+::: {layout-ncol="2"}
+![](images/hammeronstand.jpg)
+
+![](images/hammer.jpg)
+:::
+  
+Machined a hammer with precision following specifications from technical drawings and process routers. Machined handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated hard face to achieve desired hardness. Tolerances were checked using micrometers and calipers.
+
+**Skills:**  
+Manufacturing, Precision machining, Tolerancing, heat treatment, quality control
+Lathe, Mill, Bandsaw, Router, Sandblaster
+
+---
+
+
