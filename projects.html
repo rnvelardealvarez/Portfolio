@@ -117,6 +117,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#closed-loop-water-level-control-system" id="toc-closed-loop-water-level-control-system" class="nav-link active" data-scroll-target="#closed-loop-water-level-control-system">Closed-Loop Water Level Control System</a></li>
+  <li><a href="#autonomous-vertical-profiling-surface-vehicle" id="toc-autonomous-vertical-profiling-surface-vehicle" class="nav-link" data-scroll-target="#autonomous-vertical-profiling-surface-vehicle">Autonomous Vertical Profiling Surface Vehicle</a></li>
+  <li><a href="#remotely-operated-vertical-diving-vehicle" id="toc-remotely-operated-vertical-diving-vehicle" class="nav-link" data-scroll-target="#remotely-operated-vertical-diving-vehicle">Remotely Operated Vertical Diving Vehicle</a></li>
   <li><a href="#height-gauge-for-microscopy-samples" id="toc-height-gauge-for-microscopy-samples" class="nav-link" data-scroll-target="#height-gauge-for-microscopy-samples">Height Gauge for Microscopy Samples</a></li>
   </ul>
 </nav>
@@ -149,6 +151,53 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/watercontrol-breadboard.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/watercontrol-setup.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>I built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.</p>
+<p><strong>Skills:</strong> Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication</p>
+<hr>
+</section>
+<section id="autonomous-vertical-profiling-surface-vehicle" class="level2">
+<h2 class="anchored" data-anchor-id="autonomous-vertical-profiling-surface-vehicle">Autonomous Vertical Profiling Surface Vehicle</h2>
+<p>Experimental Engineering (E80) Team Project</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/avpsv-vehicle.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/avpsv-mainboard.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p><img src="images/avpsv-sensorboard.jpg" class="img-fluid"></p>
+<p><strong>Project Objective:</strong> Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.</p>
+<p><strong>Project Concept:</strong> Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.</p>
+<p>In a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.</p>
+<p><strong>Skills:</strong> Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration &amp; Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing</p>
+<p><strong>Key Contributions:</strong></p>
+<ul>
+<li>Implemented PID control through a LabVIEW program to control the vehicle’s descent depth</li>
+<li>Designed PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing</li>
+<li>Developed the sensor interface circuits for the turbidity and TDS instrumentation</li>
+<li>Integrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure</li>
+<li>Built a two-tier board stack with a main motor controller board and an I/O sensor protoboard</li>
+<li>Assembled the mechanical frame with the electronics housing</li>
+<li>Calibrated sensors against industrial references and validated performance in tank, lake, and ocean testing</li>
+</ul>
+<hr>
+</section>
+<section id="remotely-operated-vertical-diving-vehicle" class="level2">
+<h2 class="anchored" data-anchor-id="remotely-operated-vertical-diving-vehicle">Remotely Operated Vertical Diving Vehicle</h2>
+<p>Experimental Engineering (E80) Team Project — Electrical, Mechanical Systems &amp; Control</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src=".png" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
@@ -156,9 +205,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>I built a water level control system to save water leaking in a bucket at home.</p>
-<p><strong>Skills:</strong><br>
-Electronics Design, Embedded C/C++, PCB Design</p>
+<p><em>More details and photos coming soon.</em></p>
+<p><strong>Skills:</strong></p>
 <hr>
 </section>
 <section id="height-gauge-for-microscopy-samples" class="level2">
@@ -175,11 +223,18 @@ Electronics Design, Embedded C/C++, PCB Design</p>
 </div>
 <p>In a team of 5 students, we designed and built a height gauge for measuring the microscopy samples. The design is a laser-caliper system. It was capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field.</p>
 <p><strong>Skills:</strong> Prototyping, Circuit Design, Breadboarding, Soldering, CAD, 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing</p>
-<p><strong>Key Contributions:</strong><br>
-- Designed circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field - LED indicator to indicate when sample crosses linear laser field. - Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD. - Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm. - Validated effectiveness with different colored powdered and solid samples.</p>
+<p><strong>Key Contributions:</strong></p>
+<ul>
+<li>Designed circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field</li>
+<li>LED indicator to indicate when sample crosses linear laser field.</li>
+<li>Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD.</li>
+<li>Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm.</li>
+<li>Validated effectiveness with different colored powdered and solid samples.</li>
+</ul>
 <hr>
 <section id="machined-hammer" class="level2">
 <h2 class="anchored" data-anchor-id="machined-hammer">Machined Hammer</h2>
+<p>Manufacturing (E4) Project</p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
