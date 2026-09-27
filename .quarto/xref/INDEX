@@ -7,5 +7,17 @@
   },
   "projects.qmd": {
     "projects.html": "1b26a043"
+  },
+  "test_list.qmd": {
+    "test_list.html": "e583c500"
+  },
+  "bisect1.qmd": {
+    "bisect1.html": "fc123b03"
+  },
+  "bisect2.qmd": {
+    "bisect2.html": "45dd2274"
+  },
+  "bisect3.qmd": {
+    "bisect3.html": "4009d370"
   }
 }
