@@ -7,6 +7,20 @@
     "text": "Closed-Loop Water Level Control System\n\n\n\n\n\n\n\n\n\n\nI built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nSkills: Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication"
   },
   {
+    "objectID": "projects.html#autonomous-vertical-profiling-surface-vehicle",
+    "href": "projects.html#autonomous-vertical-profiling-surface-vehicle",
+    "title": "My Projects",
+    "section": "Autonomous Vertical Profiling Surface Vehicle",
+    "text": "Autonomous Vertical Profiling Surface Vehicle\nExperimental Engineering (E80) Team Project\n\n\n\n\n\n\n\n\n\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing\nKey Contributions:\n\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nDeveloped the sensor interface circuits for the turbidity and TDS instrumentation\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing"
+  },
+  {
+    "objectID": "projects.html#remotely-operated-vertical-diving-vehicle",
+    "href": "projects.html#remotely-operated-vertical-diving-vehicle",
+    "title": "My Projects",
+    "section": "Remotely Operated Vertical Diving Vehicle",
+    "text": "Remotely Operated Vertical Diving Vehicle\nExperimental Engineering (E80) Team Project — Electrical, Mechanical Systems & Control\n\n\n\n\n\n\n\n\n\n\nMore details and photos coming soon.\nSkills:"
+  },
+  {
     "objectID": "projects.html#height-gauge-for-microscopy-samples",
     "href": "projects.html#height-gauge-for-microscopy-samples",
     "title": "My Projects",
@@ -25,97 +39,13 @@
     "href": "index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab CuTE, where I work on a team developing a multichannel bioprinter for complex tissue models. Here are my projects! LinkedIn"
+    "text": "My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab CuTE, where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab ACE, where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board. Here are my projects! LinkedIn"
   },
   {
-    "objectID": "projects.html#autonomous-vertical-profiling-surface-vehicle",
-    "href": "projects.html#autonomous-vertical-profiling-surface-vehicle",
-    "title": "My Projects",
-    "section": "Autonomous Vertical Profiling Surface Vehicle",
-    "text": "Autonomous Vertical Profiling Surface Vehicle\nExperimental Engineering (E80) Team Project\n\n\n\n\n\n\n\n\n\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing\nKey Contributions:\n\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nDeveloped the sensor interface circuits for the turbidity and TDS instrumentation\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing"
-  },
-  {
-    "objectID": "projects.html#remotely-operated-vertical-diving-vehicle",
-    "href": "projects.html#remotely-operated-vertical-diving-vehicle",
-    "title": "My Projects",
-    "section": "Remotely Operated Vertical Diving Vehicle",
-    "text": "Remotely Operated Vertical Diving Vehicle\nExperimental Engineering (E80) Team Project — Electrical, Mechanical Systems & Control\n\n\n\n\n\n\n\n\n\n\nMore details and photos coming soon.\nSkills:"
-  },
-  {
-    "objectID": "test_list.html",
-    "href": "test_list.html",
-    "title": "Test",
-    "section": "",
-    "text": "Skills: A, B, C\nKey Contributions:\n\nitem one\nitem two\nitem three"
-  },
-  {
-    "objectID": "test_list.html#heading-one",
-    "href": "test_list.html#heading-one",
-    "title": "Test",
-    "section": "",
-    "text": "Skills: A, B, C\nKey Contributions:\n\nitem one\nitem two\nitem three"
-  },
-  {
-    "objectID": "bisect1.html#closed-loop-water-level-control-system",
-    "href": "bisect1.html#closed-loop-water-level-control-system",
-    "title": "My Projects",
-    "section": "Closed-Loop Water Level Control System",
-    "text": "Closed-Loop Water Level Control System\n\n\n\n\n\n\n\n\n\n\nI built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nSkills: Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication"
-  },
-  {
-    "objectID": "bisect1.html#autonomous-vertical-profiling-surface-vehicle",
-    "href": "bisect1.html#autonomous-vertical-profiling-surface-vehicle",
-    "title": "My Projects",
-    "section": "Autonomous Vertical Profiling Surface Vehicle",
-    "text": "Autonomous Vertical Profiling Surface Vehicle\nExperimental Engineering (E80) Team Project\n\n\n\n\n\n\n\n\n\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing\nKey Contributions:\n\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nDeveloped the sensor interface circuits for the turbidity and TDS instrumentation\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing"
-  },
-  {
-    "objectID": "bisect2.html#closed-loop-water-level-control-system",
-    "href": "bisect2.html#closed-loop-water-level-control-system",
-    "title": "My Projects",
-    "section": "Closed-Loop Water Level Control System",
-    "text": "Closed-Loop Water Level Control System\n\n\n\n\n\n\n\n\n\n\nI built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nSkills: Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication"
-  },
-  {
-    "objectID": "bisect2.html#autonomous-vertical-profiling-surface-vehicle",
-    "href": "bisect2.html#autonomous-vertical-profiling-surface-vehicle",
-    "title": "My Projects",
-    "section": "Autonomous Vertical Profiling Surface Vehicle",
-    "text": "Autonomous Vertical Profiling Surface Vehicle\nExperimental Engineering (E80) Team Project\n\n\n\n\n\n\n\n\n\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing\nKey Contributions:\n\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nDeveloped the sensor interface circuits for the turbidity and TDS instrumentation\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing"
-  },
-  {
-    "objectID": "bisect2.html#remotely-operated-vertical-diving-vehicle",
-    "href": "bisect2.html#remotely-operated-vertical-diving-vehicle",
-    "title": "My Projects",
-    "section": "Remotely Operated Vertical Diving Vehicle",
-    "text": "Remotely Operated Vertical Diving Vehicle\nExperimental Engineering (E80) Team Project — Electrical, Mechanical Systems & Control\n\n\n\n\n\n\n\n\n\n\nMore details and photos coming soon.\nSkills:"
-  },
-  {
-    "objectID": "bisect3.html#closed-loop-water-level-control-system",
-    "href": "bisect3.html#closed-loop-water-level-control-system",
-    "title": "My Projects",
-    "section": "Closed-Loop Water Level Control System",
-    "text": "Closed-Loop Water Level Control System\n\n\n\n\n\n\n\n\n\n\nI built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nSkills: Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication"
-  },
-  {
-    "objectID": "bisect3.html#autonomous-vertical-profiling-surface-vehicle",
-    "href": "bisect3.html#autonomous-vertical-profiling-surface-vehicle",
-    "title": "My Projects",
-    "section": "Autonomous Vertical Profiling Surface Vehicle",
-    "text": "Autonomous Vertical Profiling Surface Vehicle\nExperimental Engineering (E80) Team Project\n\n\n\n\n\n\n\n\n\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing\nKey Contributions:\n\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nDeveloped the sensor interface circuits for the turbidity and TDS instrumentation\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing"
-  },
-  {
-    "objectID": "bisect3.html#remotely-operated-vertical-diving-vehicle",
-    "href": "bisect3.html#remotely-operated-vertical-diving-vehicle",
-    "title": "My Projects",
-    "section": "Remotely Operated Vertical Diving Vehicle",
-    "text": "Remotely Operated Vertical Diving Vehicle\nExperimental Engineering (E80) Team Project — Electrical, Mechanical Systems & Control\n\n\n\n\n\n\n\n\n\n\nMore details and photos coming soon.\nSkills:"
-  },
-  {
-    "objectID": "bisect3.html#height-gauge-for-microscopy-samples",
-    "href": "bisect3.html#height-gauge-for-microscopy-samples",
-    "title": "My Projects",
-    "section": "Height Gauge for Microscopy Samples",
-    "text": "Height Gauge for Microscopy Samples\nTeam Design Project\nBackground: Australian university lab analyzes powdered samples using an electron micrscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm, a more accurate and precise method than using a ruler, and time efficient method.\n\n\n\n\n\n\n\n:::\nIn a team of 5 students, we designed and built a height gauge for measuring the microscopy samples. The design is a laser-caliper system. It was capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field.\nSkills: Prototyping, Circuit Design, Breadboarding, Soldering, CAD, 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing\nKey Contributions:\n\nDesigned circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field\nLED indicator to indicate when sample crosses linear laser field.\nPrepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD.\nImproved height measurement technique by increasing precision from 0.1 mm to 0.01 mm.\nValidated effectiveness with different colored powdered and solid samples."
+    "objectID": "index.html#resume",
+    "href": "index.html#resume",
+    "title": "Portfolio",
+    "section": "Resume",
+    "text": "Resume\nView my resume as a PDF"
   }
 ]

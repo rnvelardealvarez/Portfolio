@@ -10,7 +10,17 @@ about:
      -  icon: github
         text: Github
         href: https://github.com/rnvelardealvarez #Put your own Github link here!
+     -  icon: file-earmark-pdf
+        text: Resume
+        href: files/Velarde-Alvarez_Resume.pdf
 ---
 
-My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab [CuTE](https://www.hmc.edu/engineering/undergraduate-research-experiences/steven-santana-research-group/), where I work on a team developing a multichannel bioprinter for complex tissue models. Here are my projects!
+My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab [CuTE](https://www.hmc.edu/engineering/undergraduate-research-experiences/steven-santana-research-group/), where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab [ACE](https://www.hmc.edu/engineering/undergraduate-research-experiences/analog-circuit-engineering-lab/), where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board. Here are my projects!
 [LinkedIn](https://www.linkedin.com/in/romeo-velarde-alvarez/)
+
+## Resume
+
+[View my resume as a PDF](files/Velarde-Alvarez_Resume.pdf){target="_blank"}
+
+<iframe src="files/Velarde-Alvarez_Resume.pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
+</iframe>
