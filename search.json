@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab CuTE, where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab ACE, where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board. Here are my projects! LinkedIn"
+  },
+  {
+    "objectID": "index.html#resume",
+    "href": "index.html#resume",
+    "title": "Portfolio",
+    "section": "Resume",
+    "text": "Resume\nView my resume as a PDF"
+  },
+  {
     "objectID": "projects.html#closed-loop-water-level-control-system",
     "href": "projects.html#closed-loop-water-level-control-system",
     "title": "My Projects",
@@ -33,12 +47,5 @@
     "title": "My Projects",
     "section": "Machined Hammer",
     "text": "Machined Hammer\nManufacturing (E4) Project\n\n\n\n\n\n\n\n\n\n\nMachined a hammer with precision following specifications from technical drawings and process routers. Machined handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated hard face to achieve desired hardness. Tolerances were checked using micrometers and calipers.\nSkills:\nManufacturing, Precision machining, Tolerancing, heat treatment, quality control Lathe, Mill, Bandsaw, Router, Sandblaster"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab CuTE, where I work on a team developing a multichannel bioprinter for complex tissue models. Here are my projects! LinkedIn"
   }
 ]
