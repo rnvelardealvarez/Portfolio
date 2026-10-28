@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My Projects – Portfolio</title>
+<title>Projects – Romeo Velarde-Alvarez</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e541e4ba21204c0b403b06501d421e27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -82,8 +83,12 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/headshot-web.jpg" alt="Romeo Velarde-Alvarez" class="navbar-logo light-content">
+    <img src="./images/headshot-web.jpg" alt="Romeo Velarde-Alvarez" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Portfolio</span>
+    <span class="navbar-title">Romeo Velarde-Alvarez</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,12 +102,38 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./experience.html"> 
+<span class="menu-text">Industry &amp; Research Experience</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./researchprojects.html"> 
-<span class="menu-text">Research Projects</span></a>
+    <a class="nav-link" href="./leadership.html"> 
+<span class="menu-text">Leadership</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rnvelardealvarez"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/romeo-velarde-alvarez"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:rnvelardealvarez@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./files/Velarde-Alvarez_Resume.pdf"> <i class="bi bi-file-earmark-pdf" role="img" aria-label="Resume (PDF)">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,10 +151,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#closed-loop-water-level-control-system" id="toc-closed-loop-water-level-control-system" class="nav-link active" data-scroll-target="#closed-loop-water-level-control-system">Closed-Loop Water Level Control System</a></li>
-  <li><a href="#autonomous-vertical-profiling-surface-vehicle" id="toc-autonomous-vertical-profiling-surface-vehicle" class="nav-link" data-scroll-target="#autonomous-vertical-profiling-surface-vehicle">Autonomous Vertical Profiling Surface Vehicle</a></li>
-  <li><a href="#remotely-operated-vertical-diving-vehicle" id="toc-remotely-operated-vertical-diving-vehicle" class="nav-link" data-scroll-target="#remotely-operated-vertical-diving-vehicle">Remotely Operated Vertical Diving Vehicle</a></li>
-  <li><a href="#height-gauge-for-microscopy-samples" id="toc-height-gauge-for-microscopy-samples" class="nav-link" data-scroll-target="#height-gauge-for-microscopy-samples">Height Gauge for Microscopy Samples</a></li>
+  <li><a href="#water-level-control" id="toc-water-level-control" class="nav-link active" data-scroll-target="#water-level-control">Closed-Loop Water Level Control System</a></li>
+  <li><a href="#avpsv" id="toc-avpsv" class="nav-link" data-scroll-target="#avpsv">Autonomous Vertical Profiling Surface Vehicle</a></li>
+  <li><a href="#height-gauge" id="toc-height-gauge" class="nav-link" data-scroll-target="#height-gauge">Height Gauge for Microscopy Samples</a></li>
   </ul>
 </nav>
     </div>
@@ -132,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Projects</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -149,74 +179,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
-<section id="closed-loop-water-level-control-system" class="level2">
-<h2 class="anchored" data-anchor-id="closed-loop-water-level-control-system">Closed-Loop Water Level Control System</h2>
+<section id="water-level-control" class="level2">
+<h2 class="anchored" data-anchor-id="water-level-control">Closed-Loop Water Level Control System</h2>
+<p><span class="meta">May 2026 – Sept 2026 · Independent Project</span></p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/watercontrol-breadboard.jpg" class="img-fluid"></p>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/watercontrol-breadboard.jpg" class="img-fluid figure-img"></p>
+<figcaption>Breadboard prototype with ESP32, OLED display, and relay module</figcaption>
+</figure>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/watercontrol-setup.jpg" class="img-fluid"></p>
 </div>
-</div>
-</div>
-<p>I built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.</p>
-<p><strong>Skills:</strong> Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication</p>
-<hr>
-</section>
-<section id="autonomous-vertical-profiling-surface-vehicle" class="level2">
-<h2 class="anchored" data-anchor-id="autonomous-vertical-profiling-surface-vehicle">Autonomous Vertical Profiling Surface Vehicle</h2>
-<p>Experimental Engineering (E80) Team Project</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/avpsv-vehicle.jpg" class="img-fluid"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/avpsv-mainboard.jpg" class="img-fluid"></p>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/watercontrol-setup.jpg" class="img-fluid figure-img"></p>
+<figcaption>Pump, tubing, and bucket test setup</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<p><img src="images/avpsv-sensorboard.jpg" class="img-fluid"></p>
-<p><strong>Project Objective:</strong> Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.</p>
-<p><strong>Project Concept:</strong> Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.</p>
-<p>In a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.</p>
-<p><strong>Skills:</strong> Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration &amp; Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing</p>
+</div>
+<p><strong>Overview:</strong> I built a closed-loop water level/flow control system at home to conserve water from a leaking bucket. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.</p>
 <p><strong>Key Contributions:</strong></p>
 <ul>
+<li>Built the water level control system by designing a microcontroller-based electronic circuit with pump and sensing, using PWM actuation</li>
+<li>Implemented PI control to regulate the pump’s flow rate under varying conditions, with remote Bluetooth control from a phone</li>
+<li>Designed the PCB in KiCad, selected components, and organized the bill of materials</li>
+</ul>
+<div class="skills">
+<p><strong>Skills:</strong> Electronics Design, Embedded C/C++, Microcontrollers (ESP32), PI/PWM Control, Sensor Integration, PCB Design (KiCad), Bluetooth Communication</p>
+</div>
+<hr>
+</section>
+<section id="avpsv" class="level2">
+<h2 class="anchored" data-anchor-id="avpsv">Autonomous Vertical Profiling Surface Vehicle</h2>
+<p><span class="meta">Jan 2026 – May 2026 · Experimental Engineering (E80) Team Project · Team of 4</span></p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/avpsv-vehicle.jpg" class="img-fluid figure-img"></p>
+<figcaption>The surface vehicle with its buoyant frame and electronics enclosure</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/avpsv-mainboard.jpg" class="img-fluid figure-img"></p>
+<figcaption>Main board with Teensy microcontroller, motor drivers, and GPS</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/avpsv-sensorboard.jpg" class="img-fluid figure-img"></p>
+<figcaption>Sensor interface board with op-amps, motor H-bridge, and thermistor and pressure sensor ports</figcaption>
+</figure>
+</div>
+<p><strong>Project Objective:</strong> Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.</p>
+<p><strong>Project Concept:</strong> Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.</p>
+<p>In a team of 4 engineering students, we integrated a buoyant mechanical design and the electrical system in a water surface robot, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.</p>
+<p><strong>Key Contributions:</strong></p>
+<ul>
+<li>Led design of the sensor interface circuits with op-amps and potentiometers to map temperature and turbidity sensor signals to the 3.3V ADC read range</li>
 <li>Implemented PID control through a LabVIEW program to control the vehicle’s descent depth</li>
 <li>Designed PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing</li>
-<li>Developed the sensor interface circuits for the turbidity and TDS instrumentation</li>
 <li>Integrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure</li>
 <li>Built a two-tier board stack with a main motor controller board and an I/O sensor protoboard</li>
 <li>Assembled the mechanical frame with the electronics housing</li>
 <li>Calibrated sensors against industrial references and validated performance in tank, lake, and ocean testing</li>
 </ul>
+<div class="skills">
+<p><strong>Skills:</strong> Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration &amp; Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing</p>
+</div>
 <hr>
+<!-- Remotely Operated Vertical Diving Vehicle (E80): hidden until details and photos are added. -->
 </section>
-<section id="remotely-operated-vertical-diving-vehicle" class="level2">
-<h2 class="anchored" data-anchor-id="remotely-operated-vertical-diving-vehicle">Remotely Operated Vertical Diving Vehicle</h2>
-<p>Experimental Engineering (E80) Team Project — Electrical, Mechanical Systems &amp; Control</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src=".png" class="img-fluid"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src=".png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<p><em>More details and photos coming soon.</em></p>
-<p><strong>Skills:</strong></p>
-<hr>
-</section>
-<section id="height-gauge-for-microscopy-samples" class="level2">
-<h2 class="anchored" data-anchor-id="height-gauge-for-microscopy-samples">Height Gauge for Microscopy Samples</h2>
-<p>Team Design Project</p>
-<p>Background: Australian university lab analyzes powdered samples using an electron micrscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm, a more accurate and precise method than using a ruler, and time efficient method.</p>
+<section id="height-gauge" class="level2">
+<h2 class="anchored" data-anchor-id="height-gauge">Height Gauge for Microscopy Samples</h2>
+<p><span class="meta">Aug 2025 – Dec 2025 · Intro to Engineering Design Team Project · Team of 5</span></p>
+<p><strong>Background:</strong> An Australian university lab analyzes powdered samples using an electron microscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm: more accurate and precise than a ruler, and time efficient.</p>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 <p><img src="images/heightgauge.jpg" class="img-fluid"></p>
 <p><img src="images/IMG_4687.jpg" class="img-fluid"></p>
@@ -225,34 +274,46 @@ ul.task-list li input[type="checkbox"] {
 <source src="images/0819-web.mp4" type="video/mp4">
 </video>
 </div>
-<p>In a team of 5 students, we designed and built a height gauge for measuring the microscopy samples. The design is a laser-caliper system. It was capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field.</p>
-<p><strong>Skills:</strong> Prototyping, Circuit Design, Breadboarding, Soldering, CAD, 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing</p>
+<p><strong>Overview:</strong> In a team of 5 students, we ideated, designed, prototyped, and tested a height gauge for measuring the microscopy samples. The design is a laser-caliper system capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field, a laser-photosensor detector enabling precise, non-contact height measurement for an external university client.</p>
 <p><strong>Key Contributions:</strong></p>
 <ul>
 <li>Designed circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field</li>
-<li>LED indicator to indicate when sample crosses linear laser field.</li>
-<li>Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD.</li>
-<li>Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm.</li>
-<li>Validated effectiveness with different colored powdered and solid samples.</li>
+<li>LED indicator to indicate when sample crosses linear laser field</li>
+<li>Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD</li>
+<li>Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm</li>
+<li>Validated effectiveness with different colored powdered and solid samples</li>
 </ul>
+<div class="skills">
+<p><strong>Skills:</strong> Prototyping, Circuit Design, Breadboarding, Soldering, CAD (SolidWorks), 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing</p>
+</div>
 <hr>
 <section id="machined-hammer" class="level2">
 <h2 class="anchored" data-anchor-id="machined-hammer">Machined Hammer</h2>
-<p>Manufacturing (E4) Project</p>
+<p><span class="meta">Fall 2025 · Manufacturing (E4) Project</span></p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/hammeronstand.jpg" class="img-fluid"></p>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/hammeronstand.jpg" class="img-fluid figure-img"></p>
+<figcaption>Finished hammer on its laser-engraved display stand</figcaption>
+</figure>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/hammer.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/hammer.jpg" class="img-fluid figure-img"></p>
+<figcaption>Hammer with hard face and nylon soft face</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<p>Machined a hammer with precision following specifications from technical drawings and process routers. Machined handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated hard face to achieve desired hardness. Tolerances were checked using micrometers and calipers.</p>
-<p><strong>Skills:</strong><br>
-Manufacturing, Precision machining, Tolerancing, heat treatment, quality control Lathe, Mill, Bandsaw, Router, Sandblaster</p>
-<hr>
+</div>
+<p><strong>Overview:</strong> Machined a hammer with precision following specifications from technical drawings and process routers. Machined the handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined the AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated the hard face to achieve the desired hardness. Tolerances were checked using micrometers and calipers.</p>
+<div class="skills">
+<p><strong>Skills:</strong> Manufacturing, Precision Machining, Tolerancing, Heat Treatment, Quality Control, Lathe, Mill, Bandsaw, Router, Sandblaster</p>
+</div>
 
 
 </section>
@@ -661,8 +722,41 @@ Manufacturing, Precision machining, Tolerancing, heat treatment, quality control
   });
   </script>
  <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Romeo Velarde-Alvarez · Harvey Mudd College</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rnvelardealvarez">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/romeo-velarde-alvarez">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:rnvelardealvarez@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
