@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Portfolio</title>
+<title>Romeo Velarde-Alvarez | Portfolio – Romeo Velarde-Alvarez</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,15 +33,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e541e4ba21204c0b403b06501d421e27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,20 +72,83 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-categories','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/headshot-web.jpg" alt="Romeo Velarde-Alvarez" class="navbar-logo light-content">
+    <img src="./images/headshot-web.jpg" alt="Romeo Velarde-Alvarez" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Portfolio</span>
+    <span class="navbar-title">Romeo Velarde-Alvarez</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -96,12 +162,38 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./experience.html"> 
+<span class="menu-text">Industry &amp; Research Experience</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./researchprojects.html"> 
-<span class="menu-text">Research Projects</span></a>
+    <a class="nav-link" href="./leadership.html"> 
+<span class="menu-text">Leadership</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rnvelardealvarez"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/romeo-velarde-alvarez"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:rnvelardealvarez@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./files/Velarde-Alvarez_Resume.pdf"> <i class="bi bi-file-earmark-pdf" role="img" aria-label="Resume (PDF)">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -114,55 +206,217 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#resume" id="toc-resume" class="nav-link active" data-scroll-target="#resume">Resume</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/headshot.jpeg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Portfolio</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<p>My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab <a href="https://www.hmc.edu/engineering/undergraduate-research-experiences/steven-santana-research-group/">CuTE</a>, where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab <a href="https://www.hmc.edu/engineering/undergraduate-research-experiences/analog-circuit-engineering-lab/">ACE</a>, where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board. Here are my projects! <a href="https://www.linkedin.com/in/romeo-velarde-alvarez/">LinkedIn</a></p>
+
+
+
+<div class="hero">
+<div class="hero-photo">
+<p><img src="images/headshot-web.jpg" class="img-fluid" alt="Headshot of Romeo Velarde-Alvarez"></p>
+</div>
+<div class="hero-text">
+<p><span class="eyebrow">Harvey Mudd College · B.S. Engineering · 2028</span></p>
+<section id="romeo-velarde-alvarez" class="level1">
+<h1>Romeo Velarde-Alvarez</h1>
+<p>Hardware electronics and RF/analog circuit design.</p>
+<div class="chips">
+<p><span class="chip">Analog &amp; RF Circuits</span> <span class="chip">PCB Design &amp; Bring-Up</span> <span class="chip">Embedded Systems</span> <span class="chip">Digital / SoC Design</span></p>
+</div>
+<p><a href="files/Velarde-Alvarez_Resume.pdf" class="btn btn-primary" target="_blank">View Resume</a> <a href="./projects.html" class="btn btn-outline-primary">See Projects</a> <a href="mailto:rnvelardealvarez@gmail.com" class="btn btn-outline-primary">Email Me</a></p>
+</section>
+</div>
+</div>
+<p>I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving.</p>
+<p>I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab <a href="https://www.hmc.edu/engineering/undergraduate-research-experiences/steven-santana-research-group/">CuTE</a>, where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab <a href="https://www.hmc.edu/engineering/undergraduate-research-experiences/analog-circuit-engineering-lab/">ACE</a>, where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board.</p>
+<section id="currently" class="level2">
+<h2 class="anchored" data-anchor-id="currently">Currently</h2>
+<div class="current-grid">
+<div class="current-item">
+<p><span class="current-label">Research</span></p>
+<p>Designing a low-cost electropenetrography amplifier in the <a href="./experience.html#ace-lab">Analog Circuit Engineering Lab</a>, and developing a multichannel bioprinter in the <a href="./experience.html#cute-lab">CuTE Lab</a>.</p>
+</div>
+<div class="current-item">
+<p><span class="current-label">Industry</span></p>
+<p>Extending the open-source Wally RISC-V core with the vector extension for the <a href="./experience.html#skyworks-clinic">Skyworks Solutions Clinic team</a>.</p>
+</div>
+<div class="current-item">
+<p><span class="current-label">Leadership</span></p>
+<p>Co-founder and Co-President of the <a href="./leadership.html#shpe">Society of Hispanic Professional Engineers</a> chapter at Harvey Mudd.</p>
+</div>
+<div class="current-item">
+<p><span class="current-label">Community</span></p>
+<p>Dorm Proctor, Admissions Tour Guide, and lab grader and tutor. See <a href="./leadership.html#mentorship">Leadership</a>.</p>
+</div>
+</div>
+</section>
+<section id="featured-work" class="level2">
+<h2 class="anchored" data-anchor-id="featured-work">Featured Work</h2>
+<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="SW5kdXN0cnk=">
+<a href="experience.html#skyworks-clinic" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/card-skyworks.svg" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Skyworks Clinic: RISC-V Vector Extension
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5kdXN0cnk='); return false;">Industry</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Extending the open-source Wally RISC-V core with the RVV extension for DSP, with a team of 6.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UmVzZWFyY2g=">
+<a href="experience.html#ace-lab" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/card-ace.svg" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analog Circuit Engineering Lab
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Low-cost electropenetrography amplifier: PCB design, hardware bring-up, and microcontroller interfacing.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UmVzZWFyY2g=">
+<a href="experience.html#cute-lab" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/card-cute.svg" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+CuTE Lab: Multichannel Bioprinter
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Electromechanical systems and a Raspberry Pi-controlled printhead for hydrogel-based tissue models.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="VGVhbSUyMFByb2plY3Q=">
+<a href="projects.html#avpsv" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/avpsv-vehicle.jpg" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Autonomous Vertical Profiling Surface Vehicle
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVhbSUyMFByb2plY3Q='); return false;">Team Project</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Sensor interface circuits, PCBs, and PID depth control for a water-quality profiling robot.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="SW5kZXBlbmRlbnQlMjBQcm9qZWN0">
+<a href="projects.html#water-level-control" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/watercontrol-breadboard.jpg" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Closed-Loop Water Level Control System
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5kZXBlbmRlbnQlMjBQcm9qZWN0'); return false;">Independent Project</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>ESP32 PI controller with PWM pump actuation, OLED readout, and Bluetooth control from a phone.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="TGVhZGVyc2hpcA==">
+<a href="leadership.html#shpe" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/card-shpe.svg" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SHPE at Harvey Mudd
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGVhZGVyc2hpcA=='); return false;">Leadership</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Co-founded the chapter and secured $10,000+ to send 12 students to the SHPE National Convention.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p><strong>Harvey Mudd College</strong>, Claremont, CA. B.S. Engineering, 3.87 GPA, expected May 2028.</p>
+<p><strong>Relevant coursework:</strong> Radio Frequency Circuit Design, System-on-Chip Design (Spring 2027), Analog Circuit Design (Spring 2027), Digital Electronics &amp; Computer Engineering, Electronic &amp; Magnetic Circuits/Devices, Experimental Engineering (Instrumentation &amp; Sensor Data Measurement), Intro to Engineering Systems/Controls</p>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<p><strong>Hardware &amp; Instrumentation:</strong> Oscilloscope, Multimeter, Function Generator, Soldering, PCB Design &amp; Test, VNA, Data Acquisition</p>
+<p><strong>Software:</strong> C/C++, Python, SystemVerilog, LTspice, MATLAB, LabVIEW, Arduino IDE, SolidWorks, Quartus, KiCad</p>
+<p><strong>Electronics:</strong> Microcontrollers (Arduino, ESP32), Raspberry Pi, Sensor Integration, Analog &amp; Digital I/O, PWM, Breadboard Prototyping, Signal Mapping, Feedback Control, PID Control Loops, Motor Speed Control</p>
+</section>
 <section id="resume" class="level2">
-<h2 data-anchor-id="resume">Resume</h2>
+<h2 class="anchored" data-anchor-id="resume">Resume</h2>
 <p><a href="files/Velarde-Alvarez_Resume.pdf" target="_blank">View my resume as a PDF</a></p>
-<iframe src="files/Velarde-Alvarez_Resume.pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
+<iframe class="resume-frame" src="files/Velarde-Alvarez_Resume.pdf" title="Romeo Velarde-Alvarez resume">
 </iframe>
 
 
+
 </section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://www.linkedin.com/in/romeo-velarde-alvarez" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/rnvelardealvarez" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="/files/Velarde-Alvarez_Resume.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-pdf"></i>
-     <span class="about-link-text">Resume</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -555,8 +809,41 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Romeo Velarde-Alvarez · Harvey Mudd College</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rnvelardealvarez">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/romeo-velarde-alvarez">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:rnvelardealvarez@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -1,24 +1,58 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - experience.qmd
+    - projects.qmd
+    - leadership.qmd
 
 website:
-  title: "Portfolio"
+  title: "Romeo Velarde-Alvarez"
+  description: "Portfolio of Romeo Velarde-Alvarez, Harvey Mudd College engineering student focused on hardware electronics and RF/analog circuit design."
   navbar:
+    logo: images/headshot-web.jpg
+    logo-alt: "Romeo Velarde-Alvarez"
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
+      - href: experience.qmd
+        text: "Industry & Research Experience"
       - href: projects.qmd
-        text: Projects
-      - href: researchprojects.qmd
-        text: Research Projects
+        text: "Projects"
+      - href: leadership.qmd
+        text: "Leadership"
+    right:
+      - icon: github
+        href: https://github.com/rnvelardealvarez
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/romeo-velarde-alvarez
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:rnvelardealvarez@gmail.com
+        aria-label: Email
+      - icon: file-earmark-pdf
+        href: files/Velarde-Alvarez_Resume.pdf
+        aria-label: Resume (PDF)
+  page-footer:
+    left: "© 2026 Romeo Velarde-Alvarez · Harvey Mudd College"
+    right:
+      - icon: github
+        href: https://github.com/rnvelardealvarez
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/romeo-velarde-alvarez
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:rnvelardealvarez@gmail.com
+        aria-label: Email
 
 format:
   html:
     theme:
       - cosmo
-      - brand
+      - theme.scss
     css: styles.css
     toc: true
-
-
-
+    toc-title: "On this page"
+    smooth-scroll: true

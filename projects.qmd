@@ -1,78 +1,72 @@
 ---
-title: "My Projects"
+title: "Projects"
 ---
 
----
+## Closed-Loop Water Level Control System {#water-level-control}
 
-## Closed-Loop Water Level Control System
+[May 2026 – Sept 2026 · Independent Project]{.meta}
 
 ::: {layout-ncol="2"}
-![](images/watercontrol-breadboard.jpg)
+![Breadboard prototype with ESP32, OLED display, and relay module](images/watercontrol-breadboard.jpg)
 
-![](images/watercontrol-setup.jpg)
+![Pump, tubing, and bucket test setup](images/watercontrol-setup.jpg)
 :::
 
-I built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump's flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.
+**Overview:** I built a closed-loop water level/flow control system at home to conserve water from a leaking bucket. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump's flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.
 
-**Skills:**
-Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication
+**Key Contributions:**
+
+- Built the water level control system by designing a microcontroller-based electronic circuit with pump and sensing, using PWM actuation
+- Implemented PI control to regulate the pump's flow rate under varying conditions, with remote Bluetooth control from a phone
+- Designed the PCB in KiCad, selected components, and organized the bill of materials
+
+::: {.skills}
+**Skills:** Electronics Design, Embedded C/C++, Microcontrollers (ESP32), PI/PWM Control, Sensor Integration, PCB Design (KiCad), Bluetooth Communication
+:::
 
 ---
 
-## Autonomous Vertical Profiling Surface Vehicle
+## Autonomous Vertical Profiling Surface Vehicle {#avpsv}
 
-Experimental Engineering (E80) Team Project
+[Jan 2026 – May 2026 · Experimental Engineering (E80) Team Project · Team of 4]{.meta}
 
 ::: {layout-ncol="2"}
-![](images/avpsv-vehicle.jpg)
+![The surface vehicle with its buoyant frame and electronics enclosure](images/avpsv-vehicle.jpg)
 
-![](images/avpsv-mainboard.jpg)
+![Main board with Teensy microcontroller, motor drivers, and GPS](images/avpsv-mainboard.jpg)
 :::
 
-![](images/avpsv-sensorboard.jpg)
+![Sensor interface board with op-amps, motor H-bridge, and thermistor and pressure sensor ports](images/avpsv-sensorboard.jpg)
 
 **Project Objective:** Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.
 
 **Project Concept:** Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.
 
-In a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.
-
-**Skills:**
-Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing
+In a team of 4 engineering students, we integrated a buoyant mechanical design and the electrical system in a water surface robot, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.
 
 **Key Contributions:**
 
+- Led design of the sensor interface circuits with op-amps and potentiometers to map temperature and turbidity sensor signals to the 3.3V ADC read range
 - Implemented PID control through a LabVIEW program to control the vehicle's descent depth
 - Designed PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing
-- Developed the sensor interface circuits for the turbidity and TDS instrumentation
 - Integrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure
 - Built a two-tier board stack with a main motor controller board and an I/O sensor protoboard
 - Assembled the mechanical frame with the electronics housing
 - Calibrated sensors against industrial references and validated performance in tank, lake, and ocean testing
 
----
-
-## Remotely Operated Vertical Diving Vehicle
-
-Experimental Engineering (E80) Team Project — Electrical, Mechanical Systems & Control
-
-::: {layout-ncol="2"}
-![]()
-
-![]()
+::: {.skills}
+**Skills:** Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing
 :::
 
-*More details and photos coming soon.*
-
-**Skills:**
-
-
 ---
 
-## Height Gauge for Microscopy Samples
-   Team Design Project
+<!-- Remotely Operated Vertical Diving Vehicle (E80): hidden until details and photos are added. -->
 
-Background: Australian university lab analyzes powdered samples using an electron micrscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm, a more accurate and precise method than using a ruler, and time efficient method.
+## Height Gauge for Microscopy Samples {#height-gauge}
+
+[Aug 2025 – Dec 2025 · Intro to Engineering Design Team Project · Team of 5]{.meta}
+
+**Background:** An Australian university lab analyzes powdered samples using an electron microscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm: more accurate and precise than a ruler, and time efficient.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 
@@ -88,38 +82,34 @@ Background: Australian university lab analyzes powdered samples using an electro
 
 </div>
 
-In a team of 5 students, we designed and built a height gauge for measuring the microscopy samples. The design is a laser-caliper system. It was capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field.
-
-**Skills:**
-Prototyping, Circuit Design, Breadboarding, Soldering, CAD, 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing
+**Overview:** In a team of 5 students, we ideated, designed, prototyped, and tested a height gauge for measuring the microscopy samples. The design is a laser-caliper system capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field, a laser-photosensor detector enabling precise, non-contact height measurement for an external university client.
 
 **Key Contributions:**
 
 - Designed circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field
-- LED indicator to indicate when sample crosses linear laser field.
-- Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD.
-- Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm.
-- Validated effectiveness with different colored powdered and solid samples.
+- LED indicator to indicate when sample crosses linear laser field
+- Prepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD
+- Improved height measurement technique by increasing precision from 0.1 mm to 0.01 mm
+- Validated effectiveness with different colored powdered and solid samples
 
-
----
-
-## Machined Hammer
-
-Manufacturing (E4) Project
-
-::: {layout-ncol="2"}
-![](images/hammeronstand.jpg)
-
-![](images/hammer.jpg)
+::: {.skills}
+**Skills:** Prototyping, Circuit Design, Breadboarding, Soldering, CAD (SolidWorks), 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing
 :::
 
-Machined a hammer with precision following specifications from technical drawings and process routers. Machined handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated hard face to achieve desired hardness. Tolerances were checked using micrometers and calipers.
-
-**Skills:**  
-Manufacturing, Precision machining, Tolerancing, heat treatment, quality control
-Lathe, Mill, Bandsaw, Router, Sandblaster
-
 ---
 
+## Machined Hammer {#machined-hammer}
 
+[Fall 2025 · Manufacturing (E4) Project]{.meta}
+
+::: {layout-ncol="2"}
+![Finished hammer on its laser-engraved display stand](images/hammeronstand.jpg)
+
+![Hammer with hard face and nylon soft face](images/hammer.jpg)
+:::
+
+**Overview:** Machined a hammer with precision following specifications from technical drawings and process routers. Machined the handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined the AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated the hard face to achieve the desired hardness. Tolerances were checked using micrometers and calipers.
+
+::: {.skills}
+**Skills:** Manufacturing, Precision Machining, Tolerancing, Heat Treatment, Quality Control, Lathe, Mill, Bandsaw, Router, Sandblaster
+:::

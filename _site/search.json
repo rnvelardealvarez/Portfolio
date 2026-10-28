@@ -1,51 +1,142 @@
 [
   {
-    "objectID": "projects.html#closed-loop-water-level-control-system",
-    "href": "projects.html#closed-loop-water-level-control-system",
-    "title": "My Projects",
-    "section": "Closed-Loop Water Level Control System",
-    "text": "Closed-Loop Water Level Control System\n\n\n\n\n\n\n\n\n\n\nI built a closed-loop water level/flow control system to stop water from a leaking supply line from overflowing a bucket at home. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nSkills: Electronics Design, Embedded C/C++, Microcontrollers, PI/PWM Control, Sensor Integration, PCB Design, Bluetooth Communication"
+    "objectID": "leadership.html",
+    "href": "leadership.html",
+    "title": "Leadership",
+    "section": "",
+    "text": "Outside the lab and classroom, I help build community at Harvey Mudd through the Society of Hispanic Professional Engineers, SALSA Mudd, and residential, admissions, and teaching roles that support other students."
   },
   {
-    "objectID": "projects.html#autonomous-vertical-profiling-surface-vehicle",
-    "href": "projects.html#autonomous-vertical-profiling-surface-vehicle",
-    "title": "My Projects",
-    "section": "Autonomous Vertical Profiling Surface Vehicle",
-    "text": "Autonomous Vertical Profiling Surface Vehicle\nExperimental Engineering (E80) Team Project\n\n\n\n\n\n\n\n\n\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team, we built, tested, and integrated the vehicle from the ground up, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing\nKey Contributions:\n\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nDeveloped the sensor interface circuits for the turbidity and TDS instrumentation\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing"
+    "objectID": "leadership.html#leadership-community",
+    "href": "leadership.html#leadership-community",
+    "title": "Leadership",
+    "section": "",
+    "text": "Outside the lab and classroom, I help build community at Harvey Mudd through the Society of Hispanic Professional Engineers, SALSA Mudd, and residential, admissions, and teaching roles that support other students."
   },
   {
-    "objectID": "projects.html#remotely-operated-vertical-diving-vehicle",
-    "href": "projects.html#remotely-operated-vertical-diving-vehicle",
-    "title": "My Projects",
-    "section": "Remotely Operated Vertical Diving Vehicle",
-    "text": "Remotely Operated Vertical Diving Vehicle\nExperimental Engineering (E80) Team Project — Electrical, Mechanical Systems & Control\n\n\n\n\n\n\n\n\n\n\nMore details and photos coming soon.\nSkills:"
+    "objectID": "leadership.html#shpe",
+    "href": "leadership.html#shpe",
+    "title": "Leadership",
+    "section": "Society of Hispanic Professional Engineers: Harvey Mudd College",
+    "text": "Society of Hispanic Professional Engineers: Harvey Mudd College\nCo-Founder & Co-President | December 2025 – Present\nI co-founded the Harvey Mudd chapter of SHPE and serve as one of its Co-Presidents, building the chapter’s professional development programming and the funding that gets students to national events.\n\nBuilding the Chapter\n\nEstablished the Mudd SHPE chapter\nOrganize professional development workshops, industry speaker events, and networking sessions\n\n\n\nFunding & National Convention\n\nSecured $10,000+ in sponsorship funding to send 12 students to the SHPE National Convention"
   },
   {
-    "objectID": "projects.html#height-gauge-for-microscopy-samples",
-    "href": "projects.html#height-gauge-for-microscopy-samples",
-    "title": "My Projects",
-    "section": "Height Gauge for Microscopy Samples",
-    "text": "Height Gauge for Microscopy Samples\nTeam Design Project\nBackground: Australian university lab analyzes powdered samples using an electron micrscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm, a more accurate and precise method than using a ruler, and time efficient method.\n\n\n\n\n\n\n\n\nIn a team of 5 students, we designed and built a height gauge for measuring the microscopy samples. The design is a laser-caliper system. It was capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field.\nSkills: Prototyping, Circuit Design, Breadboarding, Soldering, CAD, 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing\nKey Contributions:\n\nDesigned circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field\nLED indicator to indicate when sample crosses linear laser field.\nPrepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD.\nImproved height measurement technique by increasing precision from 0.1 mm to 0.01 mm.\nValidated effectiveness with different colored powdered and solid samples.\n\n\n\nMachined Hammer\nManufacturing (E4) Project\n\n\n\n\n\n\n\n\n\n\nMachined a hammer with precision following specifications from technical drawings and process routers. Machined handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated hard face to achieve desired hardness. Tolerances were checked using micrometers and calipers.\nSkills:\nManufacturing, Precision machining, Tolerancing, heat treatment, quality control Lathe, Mill, Bandsaw, Router, Sandblaster"
+    "objectID": "leadership.html#salsa",
+    "href": "leadership.html#salsa",
+    "title": "Leadership",
+    "section": "SALSA Mudd",
+    "text": "SALSA Mudd\nCo-President | August 2025 – May 2026\nCo-President of the Society for Advancement of Latino Students at Mudd (SALSA Mudd)."
   },
   {
-    "objectID": "projects.html#machined-hammer",
-    "href": "projects.html#machined-hammer",
-    "title": "My Projects",
-    "section": "Machined Hammer",
-    "text": "Machined Hammer\nManufacturing (E4) Project\n\n\n\n\n\n\n\n\n\n\nMachined a hammer with precision following specifications from technical drawings and process routers. Machined handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated hard face to achieve desired hardness. Tolerances were checked using micrometers and calipers.\nSkills:\nManufacturing, Precision machining, Tolerancing, heat treatment, quality control Lathe, Mill, Bandsaw, Router, Sandblaster"
+    "objectID": "leadership.html#mentorship",
+    "href": "leadership.html#mentorship",
+    "title": "Leadership",
+    "section": "Mentorship & Student Support",
+    "text": "Mentorship & Student Support\n\nDorm Proctor: Office of Residential Life\nHarvey Mudd College | August 2026 – Present\n\nLive-in community advisor for 40+ students\nProvide guidance, conflict resolution, and wellness programming\nCommunicate resident needs to housing staff and deans\n\n\n\nTour Guide: Office of Admissions\nHarvey Mudd College | January 2025 – Present\nGive campus tours to prospective students as an admissions tour guide.\n\n\nTeaching, Grading & Tutoring\nHarvey Mudd College\n\nRF Circuit Design Lab Grader\nE79 Practicum Lab Proctor\nIntro to Engineering Design Grader\nGeneral Chemistry Tutor\nMechanics / Wave Motion Tutor"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Industry & Research Experience",
+    "section": "",
+    "text": "Aug 2026 – Present · Clinic Team Project sponsored by Skyworks Solutions, Inc. · Team of 6\nOverview: Our clinic team is extending the open-source Wally RISC-V core, the Gyrfalcon Wally Vector Extension, with the RISC-V Vector (RVV) extension. The extension adds SIMD instructions for digital signal processing (DSP), and the project is sponsored by Skyworks Solutions.\n\nExtending the open-source Wally RISC-V core with the RISC-V Vector (RVV) extension to add SIMD instructions for DSP\nContributing to the micro-architecture spec and RTL design of the execution unit, in collaboration with a team of 6 engineering students\n\n\nSkills: SystemVerilog, RTL Design, Computer Architecture, RISC-V, SIMD / DSP, Quartus"
+  },
+  {
+    "objectID": "experience.html#skyworks-clinic",
+    "href": "experience.html#skyworks-clinic",
+    "title": "Industry & Research Experience",
+    "section": "",
+    "text": "Aug 2026 – Present · Clinic Team Project sponsored by Skyworks Solutions, Inc. · Team of 6\nOverview: Our clinic team is extending the open-source Wally RISC-V core, the Gyrfalcon Wally Vector Extension, with the RISC-V Vector (RVV) extension. The extension adds SIMD instructions for digital signal processing (DSP), and the project is sponsored by Skyworks Solutions.\n\nExtending the open-source Wally RISC-V core with the RISC-V Vector (RVV) extension to add SIMD instructions for DSP\nContributing to the micro-architecture spec and RTL design of the execution unit, in collaboration with a team of 6 engineering students\n\n\nSkills: SystemVerilog, RTL Design, Computer Architecture, RISC-V, SIMD / DSP, Quartus"
+  },
+  {
+    "objectID": "experience.html#ace-lab",
+    "href": "experience.html#ace-lab",
+    "title": "Industry & Research Experience",
+    "section": "Analog Circuit Engineering Lab: Undergraduate Researcher",
+    "text": "Analog Circuit Engineering Lab: Undergraduate Researcher\nAug 2026 – Present · Harvey Mudd College, Dept. of Engineering · PI: Dr. Matthew Spencer\nOverview: I am on the hardware team in the Analog Circuit Engineering Lab (ACE), working with 8 students on hardware and firmware for a low-cost electropenetrography (EPG) amplifier. The compact amplifier system is intended to replace bulky, noise-prone legacy EPG equipment. My work focuses on the analog circuit PCB, which transmits and receives signals from the studied plant and insect, and its integration with the digital microcontroller board.\n\nDesigning a low-cost amplifier circuit for electropenetrography, contributing to PCB design, hardware bring-up, and testing\nDeveloping microcontroller interfacing with the EPG board’s receive and transmit chains, reading the analog sensing signal via ADC and generating the stimulus voltage output on a mixed-signal PCB that integrates the analog front-end and digital microcontroller\nCollaborating with 8 students to develop hardware and firmware\n\n\nSkills: Analog Circuit Design, PCB Design, Hardware Bring-Up, ADC / Mixed-Signal Interfacing, Microcontrollers, Test & Measurement\n\nACE Lab website →"
+  },
+  {
+    "objectID": "experience.html#cute-lab",
+    "href": "experience.html#cute-lab",
+    "title": "Industry & Research Experience",
+    "section": "Cell Biology, Microfluidics, and Tissue Engineering (CuTE) Lab: Undergraduate Researcher",
+    "text": "Cell Biology, Microfluidics, and Tissue Engineering (CuTE) Lab: Undergraduate Researcher\nJan 2026 – Present · Harvey Mudd College, Dept. of Engineering · PI: Dr. Steven Santana\nOverview: I work on a team developing a multichannel bioprinter for complex tissue models. My focus is the electromechanical and hardware-software side of the printer: extending its capability toward complex, multi-material biofabrication of photoinitiated hydrogel-based tissue models.\n\nDeveloping electromechanical systems for printing photoinitiated hydrogel-based tissue models, extending bioprinter capability toward complex, multi-material biofabrication\nConfiguring hardware-software integration for a Raspberry Pi-controlled multichannel printhead, coordinating sensor and actuator control for precision material deposition\nConfiguring UART-USB communication between the Raspberry Pi and the printer\n\n\nSkills: Raspberry Pi, Embedded Systems, UART / Serial Communication, Sensor & Actuator Control, Electromechanical Design\n\nCuTE Lab website →"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Portfolio",
+    "title": "Romeo Velarde-Alvarez",
     "section": "",
-    "text": "My name is Romeo Velarde-Alvarez. I am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving. I am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab CuTE, where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab ACE, where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board. Here are my projects! LinkedIn"
+    "text": "Harvey Mudd College · B.S. Engineering · 2028\n\n\nHardware electronics and RF/analog circuit design.\n\nAnalog & RF Circuits PCB Design & Bring-Up Embedded Systems Digital / SoC Design\n\nView Resume See Projects Email Me\nI am a junior Engineering major at Harvey Mudd College focused on hardware electronics and RF/analog circuit design. I am building personal electronics and embedded systems projects to strengthen my skills in hardware and software dedicated to circuit design. Through team projects, I have gained experience in electronics, systems, and collaborative problem solving.\nI am a researcher in the Cell Biology, Microfluidics, and Tissue Engineering Lab CuTE, where I work on a team developing a multichannel bioprinter for complex tissue models. I am also a part of the Analog Circuit Engineering Lab ACE, where I am working on the hardware team to integrate the analog circuit PCB, which transmits and receives signals from the studied plant and insect, with the digital microcontroller board."
+  },
+  {
+    "objectID": "index.html#currently",
+    "href": "index.html#currently",
+    "title": "Romeo Velarde-Alvarez",
+    "section": "Currently",
+    "text": "Currently\n\n\nResearch\nDesigning a low-cost electropenetrography amplifier in the Analog Circuit Engineering Lab, and developing a multichannel bioprinter in the CuTE Lab.\n\n\nIndustry\nExtending the open-source Wally RISC-V core with the vector extension for the Skyworks Solutions Clinic team.\n\n\nLeadership\nCo-founder and Co-President of the Society of Hispanic Professional Engineers chapter at Harvey Mudd.\n\n\nCommunity\nDorm Proctor, Admissions Tour Guide, and lab grader and tutor. See Leadership."
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Romeo Velarde-Alvarez",
+    "section": "Featured Work",
+    "text": "Featured Work\n\n\n\n\n\n\n\n\n\n\nSkyworks Clinic: RISC-V Vector Extension\n\n\n\nIndustry\n\n\n\nExtending the open-source Wally RISC-V core with the RVV extension for DSP, with a team of 6.\n\n\n\n\n\n\n\n\n\n\n\n\nAnalog Circuit Engineering Lab\n\n\n\nResearch\n\n\n\nLow-cost electropenetrography amplifier: PCB design, hardware bring-up, and microcontroller interfacing.\n\n\n\n\n\n\n\n\n\n\n\n\nCuTE Lab: Multichannel Bioprinter\n\n\n\nResearch\n\n\n\nElectromechanical systems and a Raspberry Pi-controlled printhead for hydrogel-based tissue models.\n\n\n\n\n\n\n\n\n\n\n\n\nAutonomous Vertical Profiling Surface Vehicle\n\n\n\nTeam Project\n\n\n\nSensor interface circuits, PCBs, and PID depth control for a water-quality profiling robot.\n\n\n\n\n\n\n\n\n\n\n\n\nClosed-Loop Water Level Control System\n\n\n\nIndependent Project\n\n\n\nESP32 PI controller with PWM pump actuation, OLED readout, and Bluetooth control from a phone.\n\n\n\n\n\n\n\n\n\n\n\n\nSHPE at Harvey Mudd\n\n\n\nLeadership\n\n\n\nCo-founded the chapter and secured $10,000+ to send 12 students to the SHPE National Convention.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Romeo Velarde-Alvarez",
+    "section": "Education",
+    "text": "Education\nHarvey Mudd College, Claremont, CA. B.S. Engineering, 3.87 GPA, expected May 2028.\nRelevant coursework: Radio Frequency Circuit Design, System-on-Chip Design (Spring 2027), Analog Circuit Design (Spring 2027), Digital Electronics & Computer Engineering, Electronic & Magnetic Circuits/Devices, Experimental Engineering (Instrumentation & Sensor Data Measurement), Intro to Engineering Systems/Controls"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Romeo Velarde-Alvarez",
+    "section": "Skills",
+    "text": "Skills\nHardware & Instrumentation: Oscilloscope, Multimeter, Function Generator, Soldering, PCB Design & Test, VNA, Data Acquisition\nSoftware: C/C++, Python, SystemVerilog, LTspice, MATLAB, LabVIEW, Arduino IDE, SolidWorks, Quartus, KiCad\nElectronics: Microcontrollers (Arduino, ESP32), Raspberry Pi, Sensor Integration, Analog & Digital I/O, PWM, Breadboard Prototyping, Signal Mapping, Feedback Control, PID Control Loops, Motor Speed Control"
   },
   {
     "objectID": "index.html#resume",
     "href": "index.html#resume",
-    "title": "Portfolio",
+    "title": "Romeo Velarde-Alvarez",
     "section": "Resume",
     "text": "Resume\nView my resume as a PDF"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "May 2026 – Sept 2026 · Independent Project\n\n\n\n\n\n\nBreadboard prototype with ESP32, OLED display, and relay module\n\n\n\n\n\n\n\nPump, tubing, and bucket test setup\n\n\n\n\n\nOverview: I built a closed-loop water level/flow control system at home to conserve water from a leaking bucket. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nKey Contributions:\n\nBuilt the water level control system by designing a microcontroller-based electronic circuit with pump and sensing, using PWM actuation\nImplemented PI control to regulate the pump’s flow rate under varying conditions, with remote Bluetooth control from a phone\nDesigned the PCB in KiCad, selected components, and organized the bill of materials\n\n\nSkills: Electronics Design, Embedded C/C++, Microcontrollers (ESP32), PI/PWM Control, Sensor Integration, PCB Design (KiCad), Bluetooth Communication"
+  },
+  {
+    "objectID": "projects.html#water-level-control",
+    "href": "projects.html#water-level-control",
+    "title": "Projects",
+    "section": "",
+    "text": "May 2026 – Sept 2026 · Independent Project\n\n\n\n\n\n\nBreadboard prototype with ESP32, OLED display, and relay module\n\n\n\n\n\n\n\nPump, tubing, and bucket test setup\n\n\n\n\n\nOverview: I built a closed-loop water level/flow control system at home to conserve water from a leaking bucket. An ESP32 reads the sensor feedback and runs a PI control loop to regulate the pump’s flow rate under varying conditions, actuating the pump through PWM. A relay module switches pump power, and an OLED display shows the live duty cycle and volumetric flow rate. The system can also be monitored and controlled remotely over Bluetooth from a phone.\nKey Contributions:\n\nBuilt the water level control system by designing a microcontroller-based electronic circuit with pump and sensing, using PWM actuation\nImplemented PI control to regulate the pump’s flow rate under varying conditions, with remote Bluetooth control from a phone\nDesigned the PCB in KiCad, selected components, and organized the bill of materials\n\n\nSkills: Electronics Design, Embedded C/C++, Microcontrollers (ESP32), PI/PWM Control, Sensor Integration, PCB Design (KiCad), Bluetooth Communication"
+  },
+  {
+    "objectID": "projects.html#avpsv",
+    "href": "projects.html#avpsv",
+    "title": "Projects",
+    "section": "Autonomous Vertical Profiling Surface Vehicle",
+    "text": "Autonomous Vertical Profiling Surface Vehicle\nJan 2026 – May 2026 · Experimental Engineering (E80) Team Project · Team of 4\n\n\n\n\n\n\nThe surface vehicle with its buoyant frame and electronics enclosure\n\n\n\n\n\n\n\nMain board with Teensy microcontroller, motor drivers, and GPS\n\n\n\n\n\n\n\n\nSensor interface board with op-amps, motor H-bridge, and thermistor and pressure sensor ports\n\n\nProject Objective: Design, build, integrate, calibrate, and field test an underwater autonomous robot that measures turbidity and total dissolved solids (TDS) at different depths in clear water, lake, and ocean environments using a controlled motor-propeller and three sensors.\nProject Concept: Build the vehicle with all control system components, including the mechanical structure, a water-proof electronics housing, custom instrumentation circuits for the turbidity and TDS sensors, PWM motor control for vertical descent, PID depth control with feedback, sensor data acquisition and storage, and user presets for underwater depth sampling.\nIn a team of 4 engineering students, we integrated a buoyant mechanical design and the electrical system in a water surface robot, then calibrated and field tested it in the lab tank room, a local lake, and at Dana Point.\nKey Contributions:\n\nLed design of the sensor interface circuits with op-amps and potentiometers to map temperature and turbidity sensor signals to the 3.3V ADC read range\nImplemented PID control through a LabVIEW program to control the vehicle’s descent depth\nDesigned PCBs for the motor driver, pressure sensor, and thermistor voltage divider, and for sensor interfacing\nIntegrated the sensor electronics with a Teensy microcontroller inside a waterproof enclosure\nBuilt a two-tier board stack with a main motor controller board and an I/O sensor protoboard\nAssembled the mechanical frame with the electronics housing\nCalibrated sensors against industrial references and validated performance in tank, lake, and ocean testing\n\n\nSkills: Electronics Design, Embedded Systems, PCB Design, PID/PWM Control, Sensor Integration & Calibration, LabVIEW, Waterproofing, Mechanical Assembly, Field Testing"
+  },
+  {
+    "objectID": "projects.html#height-gauge",
+    "href": "projects.html#height-gauge",
+    "title": "Projects",
+    "section": "Height Gauge for Microscopy Samples",
+    "text": "Height Gauge for Microscopy Samples\nAug 2025 – Dec 2025 · Intro to Engineering Design Team Project · Team of 5\nBackground: An Australian university lab analyzes powdered samples using an electron microscope. Our client needed a better method for measuring the height of samples between 0 mm and 30 mm: more accurate and precise than a ruler, and time efficient.\n\n\n\n\n\n\n\n\nOverview: In a team of 5 students, we ideated, designed, prototyped, and tested a height gauge for measuring the microscopy samples. The design is a laser-caliper system capable of measuring within 0.01 mm of precision. I took the lead in designing the electronics and circuit for the laser detection field, a laser-photosensor detector enabling precise, non-contact height measurement for an external university client.\nKey Contributions:\n\nDesigned circuit with resistors, LED, on-off switch, low-voltage fine point laser, and photodiode to create a linear detection field\nLED indicator to indicate when sample crosses linear laser field\nPrepared drawings for 12 individual parts and full assembly, and bill of materials using SolidWorks CAD\nImproved height measurement technique by increasing precision from 0.1 mm to 0.01 mm\nValidated effectiveness with different colored powdered and solid samples\n\n\nSkills: Prototyping, Circuit Design, Breadboarding, Soldering, CAD (SolidWorks), 3D Printing, Laser Cutting, Electronics Assembly, Prototype Testing\n\n\n\nMachined Hammer\nFall 2025 · Manufacturing (E4) Project\n\n\n\n\n\n\nFinished hammer on its laser-engraved display stand\n\n\n\n\n\n\n\nHammer with hard face and nylon soft face\n\n\n\n\n\nOverview: Machined a hammer with precision following specifications from technical drawings and process routers. Machined the handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined the AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated the hard face to achieve the desired hardness. Tolerances were checked using micrometers and calipers.\n\nSkills: Manufacturing, Precision Machining, Tolerancing, Heat Treatment, Quality Control, Lathe, Mill, Bandsaw, Router, Sandblaster"
+  },
+  {
+    "objectID": "projects.html#machined-hammer",
+    "href": "projects.html#machined-hammer",
+    "title": "Projects",
+    "section": "Machined Hammer",
+    "text": "Machined Hammer\nFall 2025 · Manufacturing (E4) Project\n\n\n\n\n\n\nFinished hammer on its laser-engraved display stand\n\n\n\n\n\n\n\nHammer with hard face and nylon soft face\n\n\n\n\n\nOverview: Machined a hammer with precision following specifications from technical drawings and process routers. Machined the handle using a vertical bandsaw and sanding to achieve a smooth finish. Machined the AISI 1015 steel head, AISI 4340 hard face, and nylon soft face using lathe and mill. Heat treated the hard face to achieve the desired hardness. Tolerances were checked using micrometers and calipers.\n\nSkills: Manufacturing, Precision Machining, Tolerancing, Heat Treatment, Quality Control, Lathe, Mill, Bandsaw, Router, Sandblaster"
   }
 ]

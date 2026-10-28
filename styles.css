@@ -1,1 +1,179 @@
-/* css styles */
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #dfe3ea;
+}
+.navbar-brand-container .navbar-logo {
+  height: 38px;
+  width: 38px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+.navbar-title {
+  font-weight: 600;
+  color: #1f3a6e;
+}
+
+/* Page headings */
+h1.title {
+  color: #1f3a6e;
+}
+h2 {
+  color: #1f3a6e;
+  border-bottom: 2px solid #1f3a6e;
+  padding-bottom: 0.25rem;
+  margin-top: 2.5rem;
+}
+h3 {
+  color: #1f3a6e;
+  margin-top: 1.75rem;
+}
+
+/* Home: hero */
+.hero {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 1.5rem 0 2rem;
+}
+.hero-photo {
+  flex: 0 0 240px;
+}
+.hero-photo figure,
+.hero-photo p {
+  margin: 0;
+}
+.hero-photo img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 4px solid #1f3a6e;
+}
+.hero-text {
+  flex: 1;
+}
+.eyebrow {
+  display: block;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5b6577;
+  margin-bottom: 0.25rem;
+}
+.hero-text h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1f3a6e;
+  margin: 0 0 0.5rem;
+  border: none;
+  padding: 0;
+}
+.chips {
+  margin-bottom: 1rem;
+}
+.chip {
+  display: inline-block;
+  background: #e8edf6;
+  color: #1f3a6e;
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  margin: 0 0.35rem 0.4rem 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.hero-text .btn {
+  margin: 0 0.4rem 0.4rem 0;
+}
+@media (max-width: 720px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-photo {
+    flex-basis: auto;
+  }
+}
+
+/* Home: currently */
+.current-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  .current-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.current-item {
+  border-left: 4px solid #1f3a6e;
+  background: #f5f7fb;
+  padding: 0.75rem 1rem;
+  border-radius: 0 6px 6px 0;
+}
+.current-item p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+.current-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1f3a6e;
+  margin-bottom: 0.25rem;
+}
+
+/* Featured work cards (Quarto listing) */
+#featured .quarto-grid-item {
+  border: 1px solid #dfe3ea;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+#featured .quarto-grid-item:hover {
+  box-shadow: 0 6px 18px rgba(31, 58, 110, 0.18);
+  transform: translateY(-2px);
+}
+#featured .listing-category {
+  pointer-events: none;
+  background: #e8edf6;
+  color: #1f3a6e;
+  font-weight: 600;
+}
+
+/* Entry metadata line under headings */
+.meta {
+  color: #5b6577;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* Skills lines */
+.skills {
+  background: #f5f7fb;
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+  margin: 1rem 0;
+}
+.skills p {
+  margin: 0;
+}
+
+/* Photo captions */
+figcaption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #5b6577;
+}
+
+/* Embedded resume */
+.resume-frame {
+  width: 100%;
+  height: 800px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

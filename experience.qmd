@@ -1,0 +1,52 @@
+---
+title: "Industry & Research Experience"
+---
+
+## Skyworks Solutions Clinic Team: RISC-V Vector Extension {#skyworks-clinic}
+
+[Aug 2026 – Present · Clinic Team Project sponsored by Skyworks Solutions, Inc. · Team of 6]{.meta}
+
+**Overview:** Our clinic team is extending the open-source Wally RISC-V core, the Gyrfalcon Wally Vector Extension, with the RISC-V Vector (RVV) extension. The extension adds SIMD instructions for digital signal processing (DSP), and the project is sponsored by Skyworks Solutions.
+
+- Extending the open-source Wally RISC-V core with the RISC-V Vector (RVV) extension to add SIMD instructions for DSP
+- Contributing to the micro-architecture spec and RTL design of the execution unit, in collaboration with a team of 6 engineering students
+
+::: {.skills}
+**Skills:** SystemVerilog, RTL Design, Computer Architecture, RISC-V, SIMD / DSP, Quartus
+:::
+
+---
+
+## Analog Circuit Engineering Lab: Undergraduate Researcher {#ace-lab}
+
+[Aug 2026 – Present · Harvey Mudd College, Dept. of Engineering · PI: Dr. Matthew Spencer]{.meta}
+
+**Overview:** I am on the hardware team in the Analog Circuit Engineering Lab (ACE), working with 8 students on hardware and firmware for a low-cost electropenetrography (EPG) amplifier. The compact amplifier system is intended to replace bulky, noise-prone legacy EPG equipment. My work focuses on the analog circuit PCB, which transmits and receives signals from the studied plant and insect, and its integration with the digital microcontroller board.
+
+- Designing a low-cost amplifier circuit for electropenetrography, contributing to PCB design, hardware bring-up, and testing
+- Developing microcontroller interfacing with the EPG board's receive and transmit chains, reading the analog sensing signal via ADC and generating the stimulus voltage output on a mixed-signal PCB that integrates the analog front-end and digital microcontroller
+- Collaborating with 8 students to develop hardware and firmware
+
+::: {.skills}
+**Skills:** Analog Circuit Design, PCB Design, Hardware Bring-Up, ADC / Mixed-Signal Interfacing, Microcontrollers, Test & Measurement
+:::
+
+[ACE Lab website →](https://www.hmc.edu/engineering/undergraduate-research-experiences/analog-circuit-engineering-lab/)
+
+---
+
+## Cell Biology, Microfluidics, and Tissue Engineering (CuTE) Lab: Undergraduate Researcher {#cute-lab}
+
+[Jan 2026 – Present · Harvey Mudd College, Dept. of Engineering · PI: Dr. Steven Santana]{.meta}
+
+**Overview:** I work on a team developing a multichannel bioprinter for complex tissue models. My focus is the electromechanical and hardware-software side of the printer: extending its capability toward complex, multi-material biofabrication of photoinitiated hydrogel-based tissue models.
+
+- Developing electromechanical systems for printing photoinitiated hydrogel-based tissue models, extending bioprinter capability toward complex, multi-material biofabrication
+- Configuring hardware-software integration for a Raspberry Pi-controlled multichannel printhead, coordinating sensor and actuator control for precision material deposition
+- Configuring UART-USB communication between the Raspberry Pi and the printer
+
+::: {.skills}
+**Skills:** Raspberry Pi, Embedded Systems, UART / Serial Communication, Sensor & Actuator Control, Electromechanical Design
+:::
+
+[CuTE Lab website →](https://www.hmc.edu/engineering/undergraduate-research-experiences/steven-santana-research-group/)

@@ -1,0 +1,35 @@
+- title: "Skyworks Clinic: RISC-V Vector Extension"
+  description: "Extending the open-source Wally RISC-V core with the RVV extension for DSP, with a team of 6."
+  image: images/card-skyworks.svg
+  categories: ["Industry"]
+  path: experience.html#skyworks-clinic
+
+- title: "Analog Circuit Engineering Lab"
+  description: "Low-cost electropenetrography amplifier: PCB design, hardware bring-up, and microcontroller interfacing."
+  image: images/card-ace.svg
+  categories: ["Research"]
+  path: experience.html#ace-lab
+
+- title: "CuTE Lab: Multichannel Bioprinter"
+  description: "Electromechanical systems and a Raspberry Pi-controlled printhead for hydrogel-based tissue models."
+  image: images/card-cute.svg
+  categories: ["Research"]
+  path: experience.html#cute-lab
+
+- title: "Autonomous Vertical Profiling Surface Vehicle"
+  description: "Sensor interface circuits, PCBs, and PID depth control for a water-quality profiling robot."
+  image: images/avpsv-vehicle.jpg
+  categories: ["Team Project"]
+  path: projects.html#avpsv
+
+- title: "Closed-Loop Water Level Control System"
+  description: "ESP32 PI controller with PWM pump actuation, OLED readout, and Bluetooth control from a phone."
+  image: images/watercontrol-breadboard.jpg
+  categories: ["Independent Project"]
+  path: projects.html#water-level-control
+
+- title: "SHPE at Harvey Mudd"
+  description: "Co-founded the chapter and secured $10,000+ to send 12 students to the SHPE National Convention."
+  image: images/card-shpe.svg
+  categories: ["Leadership"]
+  path: leadership.html#shpe
